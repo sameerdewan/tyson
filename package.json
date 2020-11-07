@@ -1,0 +1,19 @@
+{
+  "name": "tyson",
+  "version": "0.0.1",
+  "description": "Functions that make code syntactically cleaner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerdewan/tyson.git"
+  },
+  "author": "Sameer Dewan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sameerdewan/tyson/issues"
+  },
+  "homepage": "https://github.com/sameerdewan/tyson#readme"
+}
