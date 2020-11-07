@@ -1,4 +1,4 @@
-const { call } = require('./lib/call')
+const { call } = require('./lib/call/call');
 
 module.exports = {
     call,
