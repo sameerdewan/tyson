@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha 'lib/**/*.test.js'",
-    "lint": "eslint . --config node_modules/eslint-config-airbnb-base/index.js --fix"
+    "lint": "eslint . --config node_modules/eslint-config-airbnb-base/index.js",
+    "lint-fix": "eslint . --config node_modules/eslint-config-airbnb-base/index.js --fix"
   },
   "repository": {
     "type": "git",
