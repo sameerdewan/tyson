@@ -4,7 +4,8 @@
   "description": "Functions that make code syntactically cleaner",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'lib/**/*.test.js'"
+    "test": "mocha 'lib/**/*.test.js'",
+    "lint": "eslint . --config node_modules/eslint-config-airbnb-base/index.js --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/sameerdewan/tyson#readme",
   "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.0",
     "mocha": "^8.2.1"
   },
