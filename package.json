@@ -1,5 +1,5 @@
 {
-  "name": "tyson",
+  "name": "tyson.js",
   "version": "0.0.1",
   "description": "Functions that make code syntactically cleaner",
   "main": "index.js",
