@@ -4,7 +4,7 @@
   "description": "Functions that make code syntactically cleaner",
   "main": "index.js",
   "scripts": {
-    "test": "mocha 'lib/**/*.test.js'",
+    "test": "nyc --reporter=text mocha 'lib/**/*.test.js'",
     "lint": "eslint . --config node_modules/eslint-config-airbnb-base/index.js",
     "lint-fix": "eslint . --config node_modules/eslint-config-airbnb-base/index.js --fix"
   },
@@ -23,7 +23,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.0",
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
   },
   "husky": {
     "hooks": {
