@@ -1,6 +1,6 @@
 {
   "name": "tyson.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Functions that make code syntactically cleaner",
   "main": "index.js",
   "scripts": {
