@@ -1,11 +1,11 @@
-const { call } = require('./lib/call/call');
-const { attempt } = require('./lib/attempt/attempt');
-const { chunk } = require('./lib/chunk/chunk');
 const { asyncSequence } = require('./lib/asyncSequence/asyncSequence');
+const { attempt } = require('./lib/attempt/attempt');
+const { call } = require('./lib/call/call');
+const { chunk } = require('./lib/chunk/chunk');
 
 module.exports = {
-  call,
-  attempt,
-  chunk,
   asyncSequence,
+  attempt,
+  call,
+  chunk,
 };
